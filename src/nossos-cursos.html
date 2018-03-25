@@ -1,0 +1,194 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+ 
+<dom-module id="nossos-cursos">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+
+        padding: 10px;
+      }
+    </style>
+ <style>
+          a paper-button,
+          a:active paper-button,
+          a:visited paper-button {
+            color: #fff;
+          }
+          a {
+            text-decoration: none !important;
+          }
+          
+
+    paper-card {
+      min-width: 300px;
+      max-width: 30%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 20px; 
+    }
+    .card-content{
+      min-height: 290px;
+      color: #757575;
+
+    }
+     .card-content h3, h5{
+      color: #111111;
+
+    }
+
+    .horizontal {
+      @apply(--layout-horizontal);
+    }
+    .center {
+      @apply(--layout-center-justified);
+    }
+    .wrap{
+      @apply(--layout-wrap);
+    }
+    .justified {
+      @apply(--layout-justified);
+    }
+
+     .orange {
+       background: var(--paper-orange-500);
+     }
+    paper-card.dark, paper-card.amber, paper-card.lime, paper-card.cyan {
+      color: white;
+      --paper-card-header-color: white;
+    }
+
+    paper-checkbox {
+      display: block;
+      margin-bottom: 4px;
+      --paper-checkbox-label-color: white;
+      --paper-checkbox-unchecked-color: white;
+    }
+
+    paper-icon-button {
+      color: var(--paper-grey-600);
+    }
+
+    paper-icon-button.white {
+      color: white !important;
+    }
+        </style>
+
+<style is="custom-style">
+  paper-card.white {
+    --paper-card-header-color: #fff;
+  }
+</style>
+
+ <div class="horizontal wrap center">
+    <paper-card heading="" image="../images/criativosinovadores-capa.png" alt="Criatividade e Fluência Digital" class="white">
+      <div class="card-content"><h3>Criatividade e Fluência Digital</h3>
+      
+      <p>
+        Você que sempre pensou em ser mais criativo, mas não sabe muito bem como, que tal começar por este curso? 
+        Preparamos um curso de criatividade e fluência digital, apresentando desafios, conteúdos, técnicas e ferramentas voltadas a criatividade.
+        </p><p>O curso será dividido em cinco módulos temáticos: O que é criatividade?; Resolução criativa de problemas; Técnicas e ferramentas para ser mais criativo; Compartilhamento e colaboração: Como as tecnologias podem favorecer a sua criatividade; e Tire suas ideias do papel.
+      </p>
+        </div>
+        <div class="card-actions horizontal justified">
+           <a href="http://www.facebook.com/sharer.php?u=http://cursos.criativosinovadores.com.br/courses/criatividade-e-fluencia-digital" target="_blank"><paper-icon-button icon="social:share"></paper-icon-button></a>
+          <a href="http://cursos.criativosinovadores.com.br/courses/criatividade-e-fluencia-digital"><paper-button toggles raised class="orange">Inscreva-se</paper-button></a>
+           <a href="http://cursos.criativosinovadores.com.br/courses/criatividade-e-fluencia-digital" target="_blank"><paper-icon-button icon="open-in-new"></paper-icon-button></a>
+        </div>
+      </paper-card>
+      <paper-card heading="" image="../images/criativosinovadores-capa.png" alt="Comunidade Criativos Inovadores" class="white">
+        <div class="card-content"><h3>Comunidade Criativos Inovadores</h3>
+        
+        <p>
+          Quer fazer parte de uma comunidade de criativos, disposta a tirar suas ideias do papel, empreender e inovar?</p>
+          <p>
+          A comunidade tem o objetivo de trazer insights, conexão com outros criativos, recursos, ferramentas e mentorias, agregando experiências e impulsionando a inovação, o compartilhamento e a colaboração.</p>
+    
+          </div>
+          <div class="card-actions horizontal justified">
+             <a href="http://www.facebook.com/sharer.php?u=#http://sistema.redebrasileiradecriatividade.com/dashboard.html" target="_blank"><paper-icon-button icon="social:share"></paper-icon-button></a>
+            <a href="http://sistema.redebrasileiradecriatividade.com/dashboard.html"><paper-button toggles raised class="orange">Inscreva-se</paper-button></a>
+             <a href="http://sistema.redebrasileiradecriatividade.com/dashboard.html" target="_blank"><paper-icon-button icon="open-in-new"></paper-icon-button></a>
+          </div>
+        </paper-card>
+        <paper-card heading="" image="../images/criativosinovadores-capa.png" alt="Resolução Criativa de Problemas" class="white">
+          <div class="card-content"><h3>Resolução Criativa de Problemas</h3>
+          
+          <p>
+            Este curso está voltado ao desenvolvimento da sua capacidade de resolver problemas, aumentando seu know-how em pensar e agir fora dos modelos mentais tradicionais, culturais e sociais de comportamento. 
+            </p><p>
+            Centra-se no pensamento divergente, através de uma série de desafios, exercícios práticos e reflexivos.  </p>
+          
+            
+            </div>
+            <div class="card-actions horizontal justified">
+               <a href="http://www.facebook.com/sharer.php?u=https://criativosinovadores.com.br" target="_blank"><paper-icon-button icon="social:share"></paper-icon-button></a>
+              <a href="/inscritosresolucao"><paper-button toggles raised class="orange">Pré-reserva</paper-button></a>
+               <a href="/inscritosresolucao" target="_blank"><paper-icon-button icon="open-in-new"></paper-icon-button></a>
+            </div>
+          </paper-card>
+    <paper-card heading="" image="../images/criativosinovadores-capa.png" alt="Carreiras do Futuro" class="white">
+      <div class="card-content"><h3>Carreiras do Futuro</h3>
+      
+      <p>
+        Esse curso é para você que deseja desenvolver um novo "mind set" criativo relacionado ao impacto das tecnologias exponenciais na vida e carreira.
+        Todos os conteúdos são práticos e direcionados a identificação de habilidades que impactam diversas áreas do conhecimento.
+        </p>
+     
+        </div>
+        <div class="card-actions horizontal justified">
+           <a href="http://www.facebook.com/sharer.php?u=https://criativosinovadores.com.br" target="_blank"><paper-icon-button icon="social:share"></paper-icon-button></a>
+          <a href="/inscritoscarreiras"><paper-button toggles raised class="orange">Pré-reserva</paper-button></a>
+           <a href="/inscritoscarreiras" target="_blank"><paper-icon-button icon="open-in-new"></paper-icon-button></a>
+        </div>
+      </paper-card>
+<paper-card heading="" image="../images/criativosinovadores-capa.png" alt="Escrita Criativa" class="white">
+<div class="card-content"><h3>Escrita Criativa</h3>
+
+<p>
+  Este curso é para você que deseja transformar palavras em narrativas criativas. São múltiplas linguagens desenvolvidas no decorrer do curso, associando o uso de tecnologias a um processo prático de escrita, storytelling e edição de conteúdos.</p>
+
+  </div>
+  <div class="card-actions horizontal justified">
+     <a href="http://www.facebook.com/sharer.php?u=https://criativosinovadores.com.br" target="_blank"><paper-icon-button icon="social:share"></paper-icon-button></a>
+    <a href="/inscritosescrita"><paper-button toggles raised class="orange">Pré-reserva</paper-button></a>
+     <a href="/inscritosescrita" target="_blank"><paper-icon-button icon="open-in-new"></paper-icon-button></a>
+  </div>
+</paper-card>
+
+<paper-card heading="" image="../images/criativosinovadores-capa.png" alt="Gerenciamento de tempo para produtividade pessoal e profissional" class="white">
+<div class="card-content"><h3>Gerenciamento de tempo para produtividade pessoal e profissional</h3>
+
+<p>
+  Precisa gerenciar o tempo para ser mais feliz, ganhar produtividade e alavancar seus projetos? Este curso vai te apresentar ferramentas, métodos e técnicas para você superar desafios cotidianos relacionados ao gerenciamento de tempo e produtividade.
+</p>
+  </div>
+  <div class="card-actions horizontal justified">
+     <a href="http://www.facebook.com/sharer.php?u=https://criativosinovadores.com.br" target="_blank"><paper-icon-button icon="social:share"></paper-icon-button></a>
+    <a href="/inscritostempo"><paper-button toggles raised class="orange">Pré-reserva</paper-button></a>
+     <a href="inscritostempo" target="_blank"><paper-icon-button icon="open-in-new"></paper-icon-button></a>
+  </div>
+</paper-card>
+
+ </div>
+
+  </template>
+
+  <script>
+    Polymer({
+      is: 'nossos-cursos',
+    });
+
+
+  </script>
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"df18a02ec8d33357ccae0c765","lid":"c99f89b8cc"}) })</script>
+</dom-module>

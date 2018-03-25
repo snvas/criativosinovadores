@@ -1,0 +1,24 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/my-app.html",
+  "fragments": [
+    "src/nossos-cursos.html",
+    "src/nossos-criativos.html",
+    "src/nossos-propositos.html",
+    "src/nossos-contatos.html",
+    "src/nossos-inscritoscarreiras.html",
+    "src/nossos-inscritosescrita.html",
+    "src/nossos-inscritosresolucao.html",
+    "src/nossos-inscritostempo.html",
+    "src/nossos-view404.html"
+  ],
+  "sources": [
+    "src/**/*",
+    "images/**/*",
+    "bower.json"
+  ],
+  "extraDependencies": [
+    "manifest.json",
+    "bower_components/webcomponentsjs/webcomponents-lite.min.js"
+  ]
+}

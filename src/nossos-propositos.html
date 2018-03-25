@@ -1,0 +1,116 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+
+<dom-module id="nossos-propositos">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+
+        padding: 10px;
+      }
+       a paper-button,
+          a:active paper-button,
+          a:visited paper-button {
+            color: #000;
+          }
+          a {
+            text-decoration: none !important;
+          }
+          
+
+    paper-card {
+      
+      max-width: 50%;
+      margin-right: auto;
+      margin-left: auto;
+      min-width: 300px;
+    }
+
+    .card-content{
+      min-height: 250px;
+
+    }
+
+    .horizontal {
+      @apply(--layout-horizontal);
+    }
+
+    .justified {
+      @apply(--layout-justified);
+    }
+  .wrap{
+      @apply(--layout-wrap);
+    }
+    .amber {
+      background: var(--paper-amber-900);
+    }
+
+    .lime {
+      background: var(--paper-lime-500);
+    }
+
+    .cyan {
+      background: var(--paper-cyan-500);
+    }
+
+    .dark {
+      background: var(--paper-blue-grey-500);
+    }
+    paper-card.dark, paper-card.amber, paper-card.lime, paper-card.cyan {
+      color: white;
+      --paper-card-header-color: white;
+    }
+
+    paper-checkbox {
+      display: block;
+      margin-bottom: 4px;
+      --paper-checkbox-label-color: white;
+      --paper-checkbox-unchecked-color: white;
+    }
+
+    paper-icon-button {
+      color: var(--paper-grey-600);
+    }
+
+    paper-icon-button.white {
+      color: white !important;
+    }
+    </style><div class="horizontal wrap">
+    <paper-card heading="" image="../images/criativosinovadores-capa.png" alt="Criativos Inovadores" class="white">
+<div class="card-content"><h3>Precisamos construir um futuro que funcione para todos nós, talvez esse seja um dos maiores desafios atuais no Brasil e no mundo.</h3>
+<h4>Somos uma rede de conhecimento voltada ao desenvolvimento do potencial criativo das pessoas.</h4>
+<p>
+  Conectamos pessoas, projetos e ideias a partir de um ecossistema orgânico colaborativo em que a matéria-prima é o capital de conhecimento, além das experiências compartilhadas que se retroalimentam.</p>
+  <p>Conheça quem está conectado em nossa rede, compartilhando suas experiências e seu capital de conhecimento.
+    </p> 
+  </div>
+  <div class="card-actions horizontal justified">
+      <a href="http://www.facebook.com/sharer.php?u=http://criativosinovadores.com.br/" target="_blank"><paper-icon-button icon="social:share"></paper-icon-button></a>
+     <a href="https://www.facebook.com/AsCoisasMaisCriativasDoMundo/"><paper-button toggles raised class="lime">Participe</paper-button></a>
+      <a href="https://www.facebook.com/AsCoisasMaisCriativasDoMundo/" target="_blank"><paper-icon-button icon="open-in-new"></paper-icon-button></a>
+   </div>
+</paper-card>
+   
+
+
+
+
+
+</div>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'nossos-propositos',
+    });
+  </script>
+</dom-module>
