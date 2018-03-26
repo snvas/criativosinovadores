@@ -9,6 +9,7 @@ self.addEventListener('install', function(event) {
         'index.html',
         'src/my-app.html',
         'src/nossos-cursos.html',
+        'src/nossos-cursonovo.html',
         'src/nossos-criativos.html',
         'src/nossos-propositos.html',
         'src/nossos-contatos.html', 

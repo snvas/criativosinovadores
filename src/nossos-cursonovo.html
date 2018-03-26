@@ -1,0 +1,215 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+ 
+<dom-module id="nossos-cursonovo">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+
+        padding: 10px;
+      }
+    </style>
+ <style>
+          a paper-button,
+          a:active paper-button,
+          a:visited paper-button {
+            color: #fff;
+          }
+          a {
+            text-decoration: none !important;
+          }
+          
+
+    paper-card {
+      min-width: 300px;
+      max-width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 20px; 
+    }
+    .card-content{
+      min-height: 290px;
+      color: #757575;
+
+    }
+     .card-content h3, h5{
+      color: #111111;
+
+    }
+
+    .horizontal {
+      @apply(--layout-horizontal);
+    }
+    .center {
+      @apply(--layout-center-justified);
+    }
+    .wrap{
+      @apply(--layout-wrap);
+    }
+    .justified {
+      @apply(--layout-justified);
+    }
+
+     .orange {
+       background: var(--paper-orange-500);
+     }
+    paper-card.dark, paper-card.amber, paper-card.lime, paper-card.cyan {
+      color: white;
+      --paper-card-header-color: white;
+    }
+
+    paper-checkbox {
+      display: block;
+      margin-bottom: 4px;
+      --paper-checkbox-label-color: white;
+      --paper-checkbox-unchecked-color: white;
+    }
+
+    paper-icon-button {
+      color: var(--paper-grey-600);
+    }
+
+    paper-icon-button.white {
+      color: white !important;
+    }
+        </style>
+
+<style is="custom-style">
+  paper-card.white {
+    --paper-card-header-color: #fff;
+  }
+</style>
+
+ <div class="horizontal wrap center">
+    <paper-card heading="" image="../images/criatividade.jpg" alt="Criatividade e Fluência Digital" class="white">
+      <div class="card-content"><h3>Criatividade e Fluência Digital</h3>
+      
+      <p>
+        A Rede Brasileira de Criatividade (RBC), organização responsável pelo portal As Coisas Mais Criativas do Mundo, lança o curso Criatividade e Fluência Digital.
+        </p>
+      <p>Conheça os mentores que vão conduzir os cinco módulos temáticos: O que é criatividade?; Resolução criativa de problemas; Técnicas e ferramentas para ser mais criativo; Compartilhamento e colaboração: Como as tecnologias podem favorecer a sua criatividade; e Tire suas ideias do papel.</p>
+       </div>
+      </paper-card>
+      <paper-card>
+        <google-youtube
+     video-id="8SjphmGzxFg"
+     height="560px"
+     width="100%"
+     rel="0"
+     start="0"
+     autoplay="0">
+     </google-youtube>
+     <div class="card-content">
+      <h3>Denilson Shikako</h3>
+      <p>
+      Empresário, roteirista, músico, palestrante e professor universitário de inovação e empreendedorismo. Cofundador da Fábrica de Criatividade e CEO do Clube de Criatividade.</p>
+    </p>
+     </div>
+     </paper-card>
+     <paper-card>
+      <google-youtube
+   video-id="hbe1NpmAI-o"
+   height="560px"
+   width="100%"
+   rel="0"
+   start="0"
+   autoplay="0">
+   </google-youtube>
+   <div class="card-content">
+    <h3>Victor Mirshawka</h3>
+    <p>
+      Atua como professor de criatividade em cursos de graduação e pós-graduação há 25 anos. É fundador da consultoria Pense Melhor Educação Corporativa, que atendeu dezenas de médias e grandes empresas com programas de desenvolvimento da criatividade e inovação. É engenheiro eletrônico pela FAAP, especialista em criatividade pela Creative Education Foundation e Mestre em Educação pelo Mackenzie.</p>
+  </p>
+   </div>
+   </paper-card>
+   <paper-card>
+    <google-youtube
+ video-id="QF1N43dlhaY"
+ height="560px"
+ width="100%"
+ rel="0"
+ start="0"
+ autoplay="0">
+ </google-youtube>
+ <div class="card-content">
+  <h3>Raquel Ribeiro</h3>
+  <p>
+    Google Innovator, professora de inglês, consultora, palestrante e blogueira em EdTech. Nos últimos anos, trabalha  com ferramentas de colaboração, compartilhamento e tecnologias móveis.</p>
+</p>
+ </div>
+ </paper-card>
+ <paper-card>
+  <google-youtube
+video-id="3CEFaVpnsq8"
+height="560px"
+width="100%"
+rel="0"
+start="0"
+autoplay="0">
+</google-youtube>
+<div class="card-content">
+<h3>Maidi Dalri</h3>
+<p>
+  Google Innovator, consultora em Edtech em adoção de novas metodologias e desenvolvimento de habilidades e competências, com ênfase na produção de recursos, compartilhamento e colaboração.</p>
+</p>
+</div>
+</paper-card>
+<paper-card>
+  <google-youtube
+video-id="xAWrxYXob98"
+height="560px"
+width="100%"
+rel="0"
+start="0"
+autoplay="0">
+</google-youtube>
+<div class="card-content">
+<h3>Daniel Moscardo</h3>
+<p>
+  Apaixonado por aprender e ensinar, leciona disciplinas de empreendedorismo, marketing e computação gráfica. É cofundador da EmpreendeCasa e do EmpreendeMundo.</p>
+</p>
+</div>
+</paper-card>
+<paper-card>
+  
+<div class="card-content">
+<h3>Luciana Santos</h3>
+<p>
+  Coordenadora da Rede Brasileira de Criatividade, Google Innovator, professora universitária, consultora e palestrante. Doutoranda e pesquisadora na área criatividade, inovação, processos cognitivos e ambientes digitais.</p>
+</p>
+</div>
+</paper-card>
+<paper-card>
+  
+  <div class="card-content">
+  <h3>Ricardo Zanotta</h3>
+  <p>
+    Coordenador executivo da Rede Brasileira de Criatividade, professor universitário, consultor, palestrante e especialista em Marketing. É mentor da aceleradora de startups AmazonasCap.</p>
+  </p>
+  </div>
+  <div class="card-actions horizontal justified">
+    <a href="http://www.facebook.com/sharer.php?u=http://cursos.criativosinovadores.com.br/courses/criatividade-e-fluencia-digital" target="_blank"><paper-icon-button icon="social:share"></paper-icon-button></a>
+   <a href="http://cursos.criativosinovadores.com.br/courses/criatividade-e-fluencia-digital"><paper-button toggles raised class="orange">Inscreva-se</paper-button></a>
+    <a href="http://cursos.criativosinovadores.com.br/courses/criatividade-e-fluencia-digital" target="_blank"><paper-icon-button icon="open-in-new"></paper-icon-button></a>
+ </div>
+  </paper-card>
+ </div>
+
+  </template>
+
+  <script>
+    Polymer({
+      is: 'nossos-cursonovo',
+    });
+
+
+  </script>
+</dom-module>
